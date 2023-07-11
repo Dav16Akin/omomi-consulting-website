@@ -50,14 +50,12 @@ h3{
 }
 
 .bd-1-img {
-    background-attachment: fixed;
     background-image: url("./../images/bannerImg/2.png");
     background-size: cover;
     height: 100vh;
 }
 
 .bd-2-img {
-    background-attachment: fixed;
     background-image: url("./../images/bannerImg/3.png");
     background-size: cover;
     height: 100vh;
