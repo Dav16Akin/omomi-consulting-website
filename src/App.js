@@ -1,16 +1,21 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./navbar/Navbar";
-import Body from "./body/Body";
+import Homepage from "./body/Body";
 import Footer from "./footer/Footer";
+import aboutPage from "./pages/aboutPage";
 
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar/>
-      <Body/>
+      <Routes>
+        <Route path="/" exact Component={Homepage}/>
+        <Route path="/about" Component={aboutPage}/>
+      </Routes>
       <Footer/>
-    </div>
+    </Router>
   );
 }
 

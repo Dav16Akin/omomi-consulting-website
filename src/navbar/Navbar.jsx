@@ -14,14 +14,6 @@ const Navbar = () => {
       </nav>
 
 
-
-
-
-
-
-
-
-
       <nav className="navbar navbar-expand-lg second-nav">
         <div className="container-fluid d-flex justify-space-between">
           <img
@@ -48,12 +40,12 @@ const Navbar = () => {
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item mx-3">
-              <a className="nav-link active" aria-current="page" href="*">
+              <a className="nav-link active" aria-current="page" href='/'>
                 Home
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link" aria-current="page" href="*">
+              <a className="nav-link" aria-current="page" href="/about">
                 About
               </a>
             </li>
