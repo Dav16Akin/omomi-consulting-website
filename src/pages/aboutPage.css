@@ -16,26 +16,45 @@
 
 .about-text-container {
     border: 1px solid #edf2f4 ;
-    background-color: #edf2f4;
-    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+    /* background-color: #edf2f4; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); */
 }
 
 .about-text {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
-    width: 60%;
-    height: 60vh;
+    height: 100%;
     margin: 100px;
 }
 
 .about-text h1 {
+    text-align: left;
     font-size: 50px;
     font-weight: 600;
 }
 
-.about-text ul li {
-    list-style-type: disc;
+
+
+.industries {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.industry {
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+    height: 40px;
+    width: 500px;
+    text-align: left;
+}
+
+.industry:hover {
+    box-shadow: rgba(114, 117, 117, 0.144) 0px 8px 24px;
+}
+
 
 
 /* .staff-container {
@@ -71,4 +90,31 @@
      
 .staff-history p {
     font-weight: 400;
+}
+
+.clients-container {
+    margin: 100px;
+}
+
+.clients-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.clients {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 16%;
+    gap: 1rem;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.client {
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #2b2d42;
 }

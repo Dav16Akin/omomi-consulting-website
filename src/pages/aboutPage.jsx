@@ -14,20 +14,48 @@ const aboutPage = () => {
           Founded in 2004 Omomi Consulting Ltd facilitates creativity,
           innovation and strategy for the growth and sustainability of
           businesses in Nigeria. We focus on providing strategy, solutions and
-          tools for businesses within the following economic:
-          <ul>
-            <li> Agribusiness & Food Security</li>
-            <li> Finance,</li>
-            <li>Technology</li>
-            <li>Eduction</li>
-            <li>Healthcare</li>
-          </ul>
-          We also studiously support building partnerships with other entities
-          in business, public sector and the academia.
+          tools for businesses within the following Industries:
+
+          <div className="industries">
+            <div className="industry">Agribusiness & Food Security</div>
+            <div className="industry">Finance</div>
+            <div className="industry">Technology, Media & Telecommunications</div>
+            <div className="industry">Eduction</div>
+            <div className="industry">Healthcare</div>
+            <div className="industry">Automotive & Assembly</div>
+            <div className="industry">Industrials & Electronics</div>
+            <div className="industry">Consumer Packaged Goods</div>
+            <div className="industry">Electric Power & Natural Gas</div>
+            <div className="industry">Engineering, Construction & Building Materials</div>
+            <div className="industry">Metals & Mining</div>
+            <div className="industry">Life Sciences</div>
+            <div className="industry">Oil & Gas</div>
+            <div className="industry">Paper, Forest Products & Packaging</div>
+            <div className="industry">Private Equity & Principal Investors</div>
+            <div className="industry">Public Sector</div>
+            <div className="industry">Real Estate</div>
+            <div className="industry">Retail</div>
+            <div className="industry">Social Sector</div>
+            <div className="industry">Travel, Logistics & Infrastructure</div>
+          </div>
         </div>
       </div>
 
-      <div className="staff-container">
+      <div className="clients-container">
+        <h1>Our Clients</h1>
+        <div className="clients">
+          <div className="client"></div>
+          <div className="client"></div>
+          <div className="client"></div>
+          <div className="client"></div>
+          <div className="client"></div>
+          <div className="client"></div>
+          <div className="client"></div>
+        </div>
+
+      </div>
+
+      {/* <div className="staff-container">
         <div className="staff1-container">
           <div className="staff-img"></div>
           <div className="staff-history">
@@ -80,7 +108,7 @@ const aboutPage = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

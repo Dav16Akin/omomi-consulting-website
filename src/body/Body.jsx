@@ -4,12 +4,6 @@ import "./body.css";
 const Body = () => {
   return (
     <div className="main-body-container">
-      {/* <div className="banner">
-        <h1 className="main-text">
-          Consulting with the art of design thinki ng.
-        </h1>
-      </div> */}
-
       <div
         id="myCarousel"
         className="carousel slide mb-6"
@@ -30,6 +24,12 @@ const Body = () => {
             data-bs-target="#myCarousel"
             data-bs-slide-to="1"
             aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
           ></button>
         </div>
         <div className="carousel-inner">
@@ -52,17 +52,17 @@ const Body = () => {
             <div className="cont">
               <div className="carousel-caption text-start">
                 <h1>
-                  We Pull The Strings Of Strategy So You can Dance To The Rythm
+                  We Pull The Strings Of Strategy So You can Dance To The Rhythm
                   of Growth.
                 </h1>
                 <p className="opacity-75">
-                  We operate a policy that creates the right framework and
-                  conditions for our businesses and clients to thrive and
-                  prosper
+                  We help businesses and clients move to the right melody and
+                  achieve the harmony to accelerating sustainable and inclusive
+                  growth.
                 </p>
                 <p>
                   <a className="btn btn-lg btn-primary" href="*">
-                    Sign up today
+                    Learn More
                   </a>
                 </p>
               </div>
@@ -88,9 +88,37 @@ const Body = () => {
               <div className="carousel-caption text-start">
                 <h1>We are a leading Business Development Advocate</h1>
                 <p>
-                  We develop and promote business ideas that promote business
-                  continuity and sustainability
+                  We develop business ideas that promote business continuity and
+                  sustainability
                 </p>
+                <p>
+                  <a className="btn btn-lg btn-primary" href="*">
+                    Learn more
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <svg
+              className="bd-3-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              {/* <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              /> */}
+            </svg>
+            <div className="container">
+              <div className="carousel-caption text-start">
+                <h1>Reach the Crescendo of Growth and Success.</h1>
+                <p>We Pull the Strings of Strategy and Finance</p>
                 <p>
                   <a className="btn btn-lg btn-primary" href="*">
                     Learn more
@@ -127,22 +155,28 @@ const Body = () => {
       </div>
 
       <div className="operations-container">
-        <div className="d-flex justify-content-around">
+        <div className="operations">
           <div className="operations-text">
-            <h1 className="operations-h1">Our Operations</h1>
+            <h1 className="operations-h1">Capabilities</h1>
             <p>
-              Within the scope of our capacity and skills, we provide platforms
-              for our clients to explore sustainable development, share
-              knowledge, experiences and best practices, and to advocate
-              business positions on these issues in a variety of forums, working
-              with governments, non-governmental, intergovernmental
-              organizations and other successful businesses. We integrate
-              sustainable development as our work philosophy while we do not
-              loose our focus on the overarching issue of profitability for all
-              stakeholders.
+              Within the scope of our capacity and skills, we integrate
+              sustainable growth as our work philosophy and focus on the
+              overarching issue of profitability for all stakeholders in the
+              following areas;
             </p>
+            <ul>
+              <li>Digital Growth</li>
+              <li>Marketing & Sales</li>
+              <li>Implementation</li>
+              <li>Operations</li>
+              <li>People & Organizational Performance </li>
+              <li>Risk Management & Resilience </li>
+              <li>Strategy & Corporate Finance </li>
+              <li>Sustainability</li>
+              <li>Transformation</li>
+            </ul>
             <a className="btn btn-lg btn-primary" href="*">
-              Sign up today
+              Learn More
             </a>
           </div>
           <div className="operations-pic"></div>
@@ -150,11 +184,11 @@ const Body = () => {
       </div>
 
       <div className="what-we-offer">
-        <h1 className="card-header">What We Offer</h1>
+        <h1 className="card-header">How We Help Clients</h1>
         <div className="card-container my-5">
-          <div className="card-list-1  d-flex justify-content-around my-4">
+          <div className="card-list-1 my-4">
             <div className="cards">
-              <div className="card-image"></div>
+              <div className="card-image card-image-4"></div>
               <h3>Strategy Development And Implementation</h3>
               <p>
                 In an era of disruption, strategy is more important than ever.
@@ -165,8 +199,8 @@ const Body = () => {
               </p>
             </div>
             <div className="cards">
-              <div className="card-image"></div>
-              <h3>Product Design And Development</h3>
+              <div className="card-image card-image-3"></div>
+              <h3>Product Design, Development and Marketing</h3>
               <p>
                 From ideation to execution, our teams and designers work in
                 tandem to understand your product at its core. With technical
@@ -175,22 +209,11 @@ const Body = () => {
                 with cost, reliability and user experience at top of mind.
               </p>
             </div>
-            <div className="cards">
-              <div className="card-image"></div>
-              <h3>Sales And Marketing</h3>
-              <p>
-                Our team of experts help you achieve sustainable, organic growth
-                by focusing on three critical building blocks: an outside-in
-                approach that puts customers first, a uniquely great customer
-                experience and internal capabilities that ensure you deliver
-                optimal customer interactions at every touchpoint
-              </p>
-            </div>
           </div>
 
-          <div className="card-list-2 d-flex  justify-content-around my-4">
+          <div className="card-list-2">
             <div className="cards">
-              <div className="card-image"></div>
+              <div className="card-image card-image-1"></div>
               <h3>Digital Transformation</h3>
               <p>
                 Reinvent your business. Stay ahead of the competition. The era
@@ -204,25 +227,13 @@ const Body = () => {
               </p>
             </div>
             <div className="cards">
-              <div className="card-image"></div>
-              <h3>Financial Advisory</h3>
+              <div className="card-image card-image-2"></div>
+              <h3>Business and Financial Advisory</h3>
               <p>
                 Our financial advisory services consists of six main
-                disciplines: Corporate Finance, Risk Management, Transaction
-                Services, Restructuring, Real Estate Advisory and Forensics &
-                Litigation.
-              </p>
-            </div>
-            <div className="cards">
-              <div className="card-image"></div>
-              <h3>Learning Platforms</h3>
-              <p>
-                When it comes to talent, leaders agree on two things: It’s
-                precious, and it’s scarce. That’s why we created EduNation. We
-                have developed a unique leadership training platform that equips
-                next-generation leaders and institutions with the toolkits that
-                can be customized to meet the needs of their particular market
-                environment.
+                disciplines: Funds Arrangement, Turnaround Management, Corporate
+                Finance, Risk Management, Transaction Services, Restructuring,
+                Real Estate Advisory and Forensics & Litigation.
               </p>
             </div>
           </div>
@@ -235,38 +246,34 @@ const Body = () => {
         <div className="teams">
           <div className="team-media-scroller">
             <div className="team">
-              <div className="team-pic"></div>
+              <div className="team-pic team-1"></div>
               <div className="team-text">
-                <h5>Founder / Chairman</h5>
-                <p> Akin Oluwaleye (B.Sc., ARP, FSMIN)</p>
+                <h5> Akinwale Oluwaleye </h5>
+                <p>Managing Partner/ CEO</p>
               </div>
             </div>
             <div className="team">
-              <div className="team-pic"></div>
+              <div className="team-pic team-2"></div>
               <div className="team-text">
-                <h5>CEO</h5>
-                <p> Leye Faleye (B.A., M.Sc.)</p>
+                <h5> Lanre Adediran</h5>
+                <p>Partner, Taxation, Finance & Accounting Management</p>
               </div>
             </div>
             <div className="team">
-              <div className="team-pic"></div>
+              <div className="team-pic team-4"></div>
               <div className="team-text">
-                <h5>Financial Advisory Services</h5>
-                <p>Mr. Tunde Ayeni</p>
+                <h5>Tunde Ayeni</h5>
+                <p>Partner, Operations & Turnaround Management</p>
               </div>
             </div>
             <div className="team">
-              <div className="team-pic"></div>
+              <div className="team-pic team-3 "></div>
               <div className="team-text">
-                <h5>Veterinary Services</h5>
-                <p> Dr. Ayodele Tinubu (DVM)</p>
-              </div>
-            </div>
-            <div className="team">
-              <div className="team-pic"></div>
-              <div className="team-text">
-                <h5>Digital Financial Services</h5>
-                <p> Mr. Tobi Madariola</p>
+                <h5>Femi Niyi </h5>
+                <p>
+                  {" "}
+                  Partner, Technology Innovation, Banking & Risk Management
+                </p>
               </div>
             </div>
           </div>

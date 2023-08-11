@@ -37,16 +37,17 @@ const Footer = () => {
                 <p>+ 234 (0) 705 755 5556</p>
               </li>
               <li>
+                <p>+234 1 632 8695</p>
+              </li>
+              <li>
                 <p>info@omomiconsulting.com</p>
               </li>
               <li>
                 <p>www.omomiconsulting.com</p>
               </li>
               <li>
-                <p>
-                  Omomi Consulting Ltd First Floor, 35 Moloney Street, Obalende,
-                  Lagos Island, Lagos, Nigeri
-                </p>
+                Omomi Consulting Ltd
+                <p>35 Moloney Street, Obalende, Lagos Island, Lagos State, Nigeria</p>
               </li>
             </ul>
           </div>

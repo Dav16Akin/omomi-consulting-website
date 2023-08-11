@@ -1,34 +1,34 @@
 .main-body-container {
     background-color: white;
-    width: 100%;
+    max-width: 100%;
     margin: 0;
 }
 
-p{
+p {
     font-family: 'Albert Sans', sans-serif;
     font-weight: 200;
 }
 
-a{
+a {
     font-family: 'Albert Sans', sans-serif;
     font-weight: 200;
 }
 
-h3{
+h3 {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
 
 .carousel {
     margin-bottom: 4rem;
-    height: 110vh;
+    min-height: 110vh;
 }
 
 
 .carousel-caption {
     bottom: 3rem;
     z-index: 5;
-    width: 50%;
+    max-width: 50%;
 }
 
 .carousel-caption p {
@@ -43,7 +43,7 @@ h3{
 }
 
 .carousel-item {
-    height: 45rem;
+    min-height: 45rem;
 }
 
 .cont {
@@ -51,25 +51,35 @@ h3{
 }
 
 .carousel-inner {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .bd-1-img {
     background-image: url("./../images/bannerImg/2.jpg");
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .bd-2-img {
     background-image: url("./../images/bannerImg/1.jpg");
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+}
 
+.bd-3-img {
+    background-image: url("./../images/bannerImg/3.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.operations {
+    display: flex;
+    justify-content: space-around;
 }
 
 .operations-container {
     position: relative;
-    height: 400px;
+    max-height: 400px;
 }
 
 .operations-pic {
@@ -79,13 +89,13 @@ h3{
     position: relative;
     z-index: 5;
     bottom: 220px;
-    width: 50%;
-    background-color:#2b2d42;
+    width: 45%;
+    background-color: #2b2d42;
     height: 100vh;
 }
 
-.operations-text{
-    width: 30%;
+.operations-text {
+    width: 40%;
 }
 
 .operations-text p {
@@ -93,7 +103,13 @@ h3{
     font-size: 20px;
 }
 
-.operations-h1{
+.operations-text ul li {
+    list-style-type: disc;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.operations-h1 {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -113,17 +129,24 @@ h3{
 
 .cards {
     background-color: white;
-    border-radius: 1%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    height: 700px;
-    width: 40%;
+    max-height: 550px;
+    max-width: 48%;
     padding: 0 30px;
-    margin: 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cards:hover {
+    box-shadow: rgba(114, 117, 117, 0.144) 0px 8px 24px;
+}
+
+.card-list-1,
+.card-list-2 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -131,11 +154,12 @@ h3{
     font-family: 'Nunito', sans-serif;
     background-color: #edf2f4;
     font-size: 70px;
-    margin-top: 130px;
+    margin: 230px 0 100px 0;
     text-align: center;
 }
 
 .cards h3 {
+    font-size: 2rem;
     color: #d90429;
 }
 
@@ -145,11 +169,32 @@ h3{
 }
 
 .card-image {
-    width: 150px;
-    height: 150px;
-    background-color:#2b2d42;
+    min-width: 150px;
+    min-height: 150px;
+    background-color: white;
     border-radius: 50%;
+    border: 1px solid #2b2d42;
     margin: 50px;
+}
+
+.card-image-1 {
+    background-image: url("./../images/digital.png");
+    background-size: cover;
+}
+
+.card-image-2 {
+    background-image: url("./../images/financial.png");
+    background-size: cover;
+}
+
+.card-image-3 {
+    background-image: url("./../images/productDes.png");
+    background-size: cover;
+}
+
+.card-image-4 {
+    background-image: url("./../images/strategy.png");
+    background-size: cover;
 }
 
 .btn.btn-lg.btn-primary {
@@ -188,14 +233,35 @@ h3{
     width: 60%;
     height: 350px;
 }
+
 .team {
-    height: 320px;
+    height: 420px;
 }
 
 .team-pic {
     width: 200px;
     background-color: #2b2d42;
     height: 200px;
+}
+
+.team-1 {
+    background-image: url("./../images/IMG-20230810-WA0004.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.team-2 {
+    background-image: url("./../images/IMG-20230810-WA0005.jpg");
+    background-size: cover;
+}
+.team-3 {
+    background-image: url("./../images/image.png");
+    background-size: cover;
+}
+
+.team-4 {
+    background-image: url("./../images/IMG-20230811-WA0010.jpg");
+    background-size: cover;
 }
 
 .team-media-scroller {
@@ -213,31 +279,71 @@ h3{
 .team-header-container {
     padding: 0 50px;
     width: 50%;
-    height: 380px;
+    height: 480px;
     background-color: white;
 }
 
 .team-text h5 {
-    font-size: 20px;
-    font-weight: 600;
     margin-top: 10px;
     font-family: 'Nunito', sans-serif;
-}
-
-.team-text p {
     font-weight: 400;
 }
 
-.team-header-container h1 {
-    font-family: 'Nunito', sans-serif;   
+.team-text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
 }
+
+.team-header-container h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
 
 
 .fixed-background {
     background-image: url("./../images/traditional-turkish-musical-instruments_header.jpg");
     background-size: cover;
-    background-position:bottom;
+    background-position: bottom;
     width: 100%;
     height: 40vh;
     background-color: #2b2d42;
+}
+
+
+@media(max-width: 767px) {
+
+    .main-body-container {
+        font-size: 14px;
+    }
+
+    .operations-container {
+        margin: 0 auto;
+        text-align: center;
+        position: static;
+        max-height: 100%;
+    }
+
+    .operations {
+        position: static;
+        display: block;
+    }
+
+    .operations-pic {
+        display: none;
+    }
+
+    .what-we-offer {
+        clip-path: none;
+    }
+
+    .card-list-1,
+    .card-list-2 {
+        width: 100%;
+        display: block;
+    }
+
+    .cards {
+        width: 100%;
+    }
 }
