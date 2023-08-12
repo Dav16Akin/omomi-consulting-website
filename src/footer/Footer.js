@@ -47,7 +47,10 @@ const Footer = () => {
               </li>
               <li>
                 Omomi Consulting Ltd
-                <p>35 Moloney Street, Obalende, Lagos Island, Lagos State, Nigeria</p>
+                <p>
+                  35 Moloney Street, Obalende, Lagos Island, Lagos State,
+                  Nigeria
+                </p>
               </li>
             </ul>
           </div>

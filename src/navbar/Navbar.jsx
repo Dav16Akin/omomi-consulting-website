@@ -5,7 +5,7 @@ import logo from "./../images/fulllogo.jpeg";
 const Navbar = () => {
   return (
     <>
-    <div className="fixed-top">
+    <div className="main-nav">
     <nav className="top-nav navbar navbar-expand-lg">
         <div className="container-fluid top-navv">
           <div className="">info@omomiconsulting.com</div>

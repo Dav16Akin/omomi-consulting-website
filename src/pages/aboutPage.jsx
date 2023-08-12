@@ -15,18 +15,21 @@ const aboutPage = () => {
           innovation and strategy for the growth and sustainability of
           businesses in Nigeria. We focus on providing strategy, solutions and
           tools for businesses within the following Industries:
-
           <div className="industries">
             <div className="industry">Agribusiness & Food Security</div>
             <div className="industry">Finance</div>
-            <div className="industry">Technology, Media & Telecommunications</div>
+            <div className="industry">
+              Technology, Media & Telecommunications
+            </div>
             <div className="industry">Eduction</div>
             <div className="industry">Healthcare</div>
             <div className="industry">Automotive & Assembly</div>
             <div className="industry">Industrials & Electronics</div>
             <div className="industry">Consumer Packaged Goods</div>
             <div className="industry">Electric Power & Natural Gas</div>
-            <div className="industry">Engineering, Construction & Building Materials</div>
+            <div className="industry">
+              Engineering, Construction & Building Materials
+            </div>
             <div className="industry">Metals & Mining</div>
             <div className="industry">Life Sciences</div>
             <div className="industry">Oil & Gas</div>
@@ -43,16 +46,100 @@ const aboutPage = () => {
 
       <div className="clients-container">
         <h1>Our Clients</h1>
-        <div className="clients">
-          <div className="client"></div>
-          <div className="client"></div>
-          <div className="client"></div>
-          <div className="client"></div>
-          <div className="client"></div>
-          <div className="client"></div>
-          <div className="client"></div>
+        <div className="slider">
+          <ul>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+            <li>
+              <img
+                src="https://via.placeholder.com/200?text=Logo%201"
+                alt=""
+              ></img>
+            </li>
+          </ul>
         </div>
-
       </div>
 
       {/* <div className="staff-container">

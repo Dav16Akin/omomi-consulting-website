@@ -42,14 +42,8 @@ const Body = () => {
               aria-hidden="true"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
-            >
-              {/* <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              /> */}
-            </svg>
-            <div className="cont">
+            ></svg>
+            <div className="container">
               <div className="carousel-caption text-start">
                 <h1>
                   We Pull The Strings Of Strategy So You can Dance To The Rhythm
@@ -77,15 +71,9 @@ const Body = () => {
               aria-hidden="true"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
-            >
-              {/* <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              /> */}
-            </svg>
+            ></svg>
             <div className="container">
-              <div className="carousel-caption text-start">
+              <div className="carousel-caption text-start-2">
                 <h1>We are a leading Business Development Advocate</h1>
                 <p>
                   We develop business ideas that promote business continuity and
@@ -108,15 +96,9 @@ const Body = () => {
               aria-hidden="true"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
-            >
-              {/* <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              /> */}
-            </svg>
+            ></svg>
             <div className="container">
-              <div className="carousel-caption text-start">
+              <div className="carousel-caption text-start-3">
                 <h1>Reach the Crescendo of Growth and Success.</h1>
                 <p>We Pull the Strings of Strategy and Finance</p>
                 <p>
@@ -242,7 +224,7 @@ const Body = () => {
 
       <div className="fixed-background"></div>
 
-      <div className="team-container d-flex justify-content-around">
+      <div className="team-container">
         <div className="teams">
           <div className="team-media-scroller">
             <div className="team">

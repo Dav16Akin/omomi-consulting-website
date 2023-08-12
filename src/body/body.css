@@ -20,15 +20,30 @@ h3 {
 }
 
 .carousel {
-    margin-bottom: 4rem;
-    min-height: 110vh;
+    /* margin-bottom: 4rem; */
+    /* min-height: 100vh; */
 }
 
 
+
+
 .carousel-caption {
-    bottom: 3rem;
+    text-align: left;
+    top: 200px;
     z-index: 5;
-    max-width: 50%;
+    max-width: 700px;
+}
+
+.carousel-caption.text-start-2 {
+    top: 250px;
+}
+
+.carousel-caption.text-start-3 {
+    top: 300px;
+}
+
+.carousel-indicators {
+    display: none;
 }
 
 .carousel-caption p {
@@ -42,59 +57,58 @@ h3 {
     font-weight: 600;
 }
 
-.carousel-item {
-    min-height: 45rem;
-}
-
-.cont {
-    width: 10px;
-}
-
-.carousel-inner {
-    min-height: 100vh;
-}
-
 .bd-1-img {
     background-image: url("./../images/bannerImg/2.jpg");
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .bd-2-img {
     background-image: url("./../images/bannerImg/1.jpg");
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .bd-3-img {
     background-image: url("./../images/bannerImg/3.jpg");
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
 }
 
+
+
+
+
+
+
+
+
+
+
 .operations {
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
 }
 
 .operations-container {
-    position: relative;
-    max-height: 400px;
+    width: 100%;
+    max-height: 85vh;
 }
 
 .operations-pic {
     background-image: url("./../images/lukasz-rawa-lUSYREUSXBg-unsplash.jpg");
     background-size: cover;
-    background-position: center;
     position: relative;
     z-index: 5;
-    bottom: 220px;
+    bottom: 170px;
     width: 45%;
-    background-color: #2b2d42;
-    height: 100vh;
+    height: 900px;
+
 }
 
 .operations-text {
+    padding : 50px;
     width: 40%;
 }
 
@@ -106,7 +120,8 @@ h3 {
 .operations-text ul li {
     list-style-type: disc;
     font-family: 'Nunito', sans-serif;
-    font-size: 1rem;
+    font-size: 17px;
+    line-height: 2rem;
 }
 
 .operations-h1 {
@@ -134,8 +149,8 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    max-height: 550px;
-    max-width: 48%;
+    height: 550px;
+    max-width: 680px;
     padding: 0 30px;
 }
 
@@ -154,7 +169,7 @@ h3 {
     font-family: 'Nunito', sans-serif;
     background-color: #edf2f4;
     font-size: 70px;
-    margin: 230px 0 100px 0;
+    margin: 200px 0 100px 0;
     text-align: center;
 }
 
@@ -169,8 +184,8 @@ h3 {
 }
 
 .card-image {
-    min-width: 150px;
-    min-height: 150px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     border-radius: 50%;
     border: 1px solid #2b2d42;
@@ -204,25 +219,12 @@ h3 {
     border: none;
 }
 
-.row.featurette {
-    color: #edf2f4;
-    background-color: #8d99ae;
-    padding: 150px 150px 10px 150px;
-    margin: 0;
-}
 
-
-.material-symbols-outlined {
-    color: white;
-    font-size: 200px;
-}
-
-.projects {
-    font-size: 70px;
-}
 
 
 .team-container {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     padding: 49px;
     margin-top: 50px;
@@ -254,6 +256,7 @@ h3 {
     background-image: url("./../images/IMG-20230810-WA0005.jpg");
     background-size: cover;
 }
+
 .team-3 {
     background-image: url("./../images/image.png");
     background-size: cover;
@@ -311,39 +314,145 @@ h3 {
 }
 
 
-@media(max-width: 767px) {
+@media screen and (max-width: 767px) {
+
+    .bd-1-img,
+    .bd-2-img,
+    .bd-3-img {
+        height: 90vh;
+        background-image: none;
+        background-color: #2b2d42;
+    }
 
     .main-body-container {
-        font-size: 14px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .carousel {
+        height: 100vh;
+    }
+
+    .carousel-item {
+        height: 100vh;
+    }
+
+    .carousel-caption {
+        margin: 0;
+        padding: 0;
+        top: 70px;
+    }
+
+    .carousel-caption.text-start-2 {
+        top: 150px;
+    }
+
+    .carousel-caption.text-start-3 {
+        top: 200px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.5rem;
     }
 
     .operations-container {
-        margin: 0 auto;
-        text-align: center;
-        position: static;
-        max-height: 100%;
+        padding: 4px;
+        margin: 0;
+        min-height: 150vh;
     }
 
     .operations {
+        height: 100%;
         position: static;
+        padding: 0;
+        margin: 0;
         display: block;
     }
 
     .operations-pic {
-        display: none;
+        position: static;
+        background-size: cover;
+        padding: 0;
+        margin: 1rem auto;
+        width: 80%;
+        height: 400px;
+    }
+
+    .operations-text {
+        padding: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .operations-text p {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .operations-h1 {
+        font-size: 40px;
+    }
+
+    .operations-text ul li {
+        font-size: 16px;
     }
 
     .what-we-offer {
         clip-path: none;
     }
 
+    .card-header {
+        margin: 20px;
+        font-size: 40px;
+    }
+
     .card-list-1,
     .card-list-2 {
-        width: 100%;
         display: block;
     }
 
     .cards {
+        margin: 3rem auto;
+        height: 650px;
+    }
+
+    .cards h3 {
+        font-size: 30px;
+    }
+
+    .cards p {
+        font-size: 17px;
+    }
+
+    .card-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-container {
+        flex-direction: column-reverse;
+    }
+
+    .teams {
+        margin: 1rem auto;
         width: 100%;
     }
+
+    .team-header-container {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .team-media-scroller {
+        grid-auto-columns: 30%;
+        gap: 10rem;
+    }
+
+    .team-text {
+        width: 200px;
+    }
+
 }
