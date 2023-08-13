@@ -1,5 +1,18 @@
 import React from "react";
 import "./aboutPage.css";
+import cabotaLogo from "./../images/aboutpageLogo/CABOTA.png";
+import compassLogo from "./../images/aboutpageLogo/COMPASS.png";
+import damtaqLogo from "./../images/aboutpageLogo/DAMTAQ.png";
+import dbiLogo from "./../images/aboutpageLogo/DBI.png";
+import groLogo from "./../images/aboutpageLogo/GRO.png";
+import grocapitaLogo from "./../images/aboutpageLogo/GROCAPITA.png";
+import highenergyLogo from "./../images/aboutpageLogo/HIGHLANDENERGY.png";
+import irasaLogo from "./../images/aboutpageLogo/IRASA.png";
+import ngepLogo from "./../images/aboutpageLogo/NGEP.png";
+import nneoLogo from "./../images/aboutpageLogo/NNEO-URBAN.png";
+import onehubLogo from "./../images/aboutpageLogo/ONEHUB.png";
+import owuLogo from "./../images/aboutpageLogo/OWU.png";
+import prividaLogo from "./../images/aboutpageLogo/PRIVIDA.png";
 
 const aboutPage = () => {
   return (
@@ -46,99 +59,37 @@ const aboutPage = () => {
 
       <div className="clients-container">
         <h1>Our Clients</h1>
-        <div className="slider">
-          <ul>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-            <li>
-              <img
-                src="https://via.placeholder.com/200?text=Logo%201"
-                alt=""
-              ></img>
-            </li>
-          </ul>
+        <div className="logos">
+          <div className="slider">
+            <img src={onehubLogo} alt="" />
+            <img src={damtaqLogo} alt="" />
+            <img src={owuLogo} alt="" />
+            <img src={dbiLogo} alt="" />
+            <img src={ngepLogo} alt="" />
+            <img src={nneoLogo} alt="" />
+            <img src={cabotaLogo} alt="" />
+            <img src={compassLogo} alt="" />
+            <img src={groLogo} alt="" />
+            <img src={grocapitaLogo} alt="" />
+            <img src={highenergyLogo} alt="" />
+            <img src={irasaLogo} alt="" />
+            <img src={prividaLogo} alt="" />
+          </div>
+          <div className="slider">
+            <img src={onehubLogo} alt="" />
+            <img src={damtaqLogo} alt="" />
+            <img src={owuLogo} alt="" />
+            <img src={dbiLogo} alt="" />
+            <img src={ngepLogo} alt="" />
+            <img src={nneoLogo} alt="" />
+            <img src={cabotaLogo} alt="" />
+            <img src={compassLogo} alt="" />
+            <img src={groLogo} alt="" />
+            <img src={grocapitaLogo} alt="" />
+            <img src={highenergyLogo} alt="" />
+            <img src={irasaLogo} alt="" />
+            <img src={prividaLogo} alt="" />
+          </div>
         </div>
       </div>
 

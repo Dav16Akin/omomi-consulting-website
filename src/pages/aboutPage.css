@@ -1,3 +1,9 @@
+.about-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .about-banner {
     background-image: url("./paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     width: 100%;
@@ -5,6 +11,8 @@
     background-size: cover;
     position: relative;
 }
+
+
 
 .about-header {
     color: white;
@@ -15,9 +23,8 @@
 }
 
 .about-text-container {
-    border: 1px solid #edf2f4;
-    /* background-color: #edf2f4; */
-    /* clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); */
+    color: black;
+    border: 1px solid white;
 }
 
 .about-text {
@@ -28,6 +35,7 @@
 }
 
 .about-text h1 {
+    color: #d90429;
     text-align: left;
     font-size: 50px;
     font-weight: 600;
@@ -39,20 +47,23 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .industry {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 5px;
-    margin: 3px;
     height: 40px;
-    width: 500px;
-    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    line-height: -10px;
 }
 
 .industry:hover {
-    box-shadow: rgba(114, 117, 117, 0.144) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 
@@ -93,41 +104,42 @@
 }
 
 .clients-container {
-    margin: 4rem;
+    height: 70vh ;
 }
 
 .clients-container h1 {
-    margin: 1rem 60px;
+    color: #d90429;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 6rem 0 2rem 100px;
 }
 
 .slider {
-    width: 90%;
-    margin: 3rem auto;
-    overflow-x: hidden;
+    display: inline-block;
+    padding: 60px 0;
+    animation: slider 50s infinite linear;
 }
 
-.slider ul {
-    display: flex;
-    padding: 0;
-    animation: cambio 20s infinite linear;
+.logos:hover .slider {
+    animation-play-state: paused;
 }
 
-.slider li {
-    padding: 0 10px;
-    list-style: none;
+.logos {
+    white-space: nowrap;
+}
+
+
+@keyframes slider {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-160%);
+    }
 }
 
 .slider img {
-    max-width: fit-content !important;
-    height: auto !important;
-}
-
-@keyframes cambio {
-    from {
-        margin-left: 0%
-    }
-
-    to {
-        margin-left: -100%
-    }
+    margin: 0 40px;
+    height: 200px;
 }
