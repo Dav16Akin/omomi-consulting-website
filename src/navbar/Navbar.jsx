@@ -39,8 +39,8 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item mx-3">
-              <a className="nav-link active" aria-current="page" href='/'>
+            <li className="nav-item active mx-3">
+              <a className="nav-link activ" aria-current="page" href='/'>
                 Home
               </a>
             </li>
@@ -50,12 +50,12 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link" aria-current="page" href="*">
-                Services
+              <a className="nav-link" aria-current="page" href="/impact">
+                Impact
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link" aria-current="page" href="*">
+              <a className="nav-link" aria-current="page" href="/contact">
                 Contact
               </a>
             </li>

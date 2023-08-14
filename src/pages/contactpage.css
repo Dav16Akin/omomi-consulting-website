@@ -1,0 +1,87 @@
+.contact-banner {
+    background-image: url("./Connection.jpg");
+    height: 65vh;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-header {
+    position: absolute;
+    bottom: 30%;
+    left: 6.5%;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact-form {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact-form-text h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+}
+
+.contact-form-text p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.form-name {
+    justify-content: space-between;
+    display: flex;
+}
+
+.form {
+    width: 700px;
+}
+
+.nameBox input,
+.emailBox input {
+    background-color: #edf2f4;
+    border: 0.5px solid #d1e8f1;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+}
+
+.msgBox input {
+    background-color: #edf2f4;
+    border: 0.5px solid #d1e8f1;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+}
+
+.form a {
+    margin: 1rem 0;
+}
+
+.form-text {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #d90429;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+    color: white;
+    background-color: black;
+}

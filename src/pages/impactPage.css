@@ -1,0 +1,102 @@
+.impact-banner {
+    background-image: url("./Impact.jpg");
+    background-size: cover;
+    height: 65vh;
+    background-color: #2b2d42;
+    position: relative;
+}
+
+
+.banner-header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    left: 8%;
+    bottom: 25%;
+}
+
+
+.impact-body {
+    margin: 2rem 7rem;
+    height: 100%;
+}
+
+.impact-text {
+    font-size: 1.4rem;
+    /* padding: 0 4rem; */
+    font-family: 'Nunito', sans-serif;
+}
+
+.product-container {
+    margin: 2rem 0;
+}
+
+.product-container h1, .case-container h1 {
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.product-container p, .case-container p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.product-img {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img img{
+    width: 80%; 
+}
+
+
+.case-container {
+    margin: 2rem 0;
+    /* height: 100svh; */
+}
+
+
+.case-img {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.case-img img{
+    width: 100%;
+}
+
+.case-container h1, .partner-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+}
+
+.partner-container {
+    margin: 2rem 0;
+}
+
+
+
+.partner-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.slider.sli-partner {
+    animation: slide 20s infinite linear;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

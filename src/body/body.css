@@ -59,18 +59,21 @@ h3 {
 
 .bd-1-img {
     background-image: url("./../images/bannerImg/2.jpg");
+    background-color: #2b2d42;
     background-size: cover;
     height: 100vh;
 }
 
 .bd-2-img {
     background-image: url("./../images/bannerImg/1.jpg");
+    background-color: #2b2d42;
     background-size: cover;
     height: 100vh;
 }
 
 .bd-3-img {
     background-image: url("./../images/bannerImg/3.jpg");
+    background-color: #2b2d42;
     background-size: cover;
     height: 100vh;
 }
@@ -101,9 +104,9 @@ h3 {
     background-size: cover;
     position: relative;
     z-index: 5;
-    bottom: 170px;
+    bottom: 8rem;
     width: 45%;
-    height: 900px;
+    height: 115svh;
 
 }
 

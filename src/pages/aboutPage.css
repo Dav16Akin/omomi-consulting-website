@@ -5,6 +5,7 @@
 }
 
 .about-banner {
+    background-color: #2b2d42;
     background-image: url("./paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg");
     width: 100%;
     height: 65vh;
@@ -19,7 +20,7 @@
     font-size: 5rem;
     position: absolute;
     bottom: 30%;
-    left: 10%;
+    left: 8%;
 }
 
 .about-text-container {
@@ -35,7 +36,7 @@
 }
 
 .about-text h1 {
-    color: #d90429;
+    color: #2b2d42;
     text-align: left;
     font-size: 50px;
     font-weight: 600;
@@ -108,7 +109,7 @@
 }
 
 .clients-container h1 {
-    color: #d90429;
+    color: #2b2d42;
     font-family: 'Nunito', sans-serif;
     font-size: 3.5rem;
     font-weight: 600;
