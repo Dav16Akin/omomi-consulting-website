@@ -2,14 +2,14 @@ import React from "react";
 import "./impactPage.css";
 import globalpng from "./GLOBALLOGOS.png";
 import casepng from "./case.png";
-import one from "./partnerLogo/1.png"
-import two from "./partnerLogo/2.png"
-import three from "./partnerLogo/3.png"
-import four from "./partnerLogo/4.png"
-import five from "./partnerLogo/5.png"
-import six from "./partnerLogo/6.png"
-import seven from "./partnerLogo/7.png"
-import eight from "./partnerLogo/8.png"
+import one from "./partnerLogo/1.png";
+import two from "./partnerLogo/2.png";
+import three from "./partnerLogo/3.png";
+import four from "./partnerLogo/4.png";
+import five from "./partnerLogo/5.png";
+import six from "./partnerLogo/6.png";
+import seven from "./partnerLogo/7.png";
+import eight from "./partnerLogo/8.png";
 
 const impactPage = () => {
   return (
@@ -53,30 +53,37 @@ const impactPage = () => {
         </div>
 
         <div className="partner-container">
-        <h1>Our Partners</h1>
-        <div className="logos">
-          <div className="slider sli-partner">
-            <img src={one} alt="" />
-            <img src={two} alt="" />
-            <img src={three} alt="" />
-            <img src={four} alt="" />
-            <img src={five} alt="" />
-            <img src={six} alt="" />
-            <img src={seven} alt="" />
-            <img src={eight} alt="" />
+          <h1>Our Partners</h1>
+          <p>
+            Partnerships embodies our purpose of building trust and solving
+            important problems. Our purpose also brings us a responsibility to
+            share our innovation experience, insights and knowledge as widely as
+            we can for the benefit of all stakeholders.
+          </p>
+          <div className="logos">
+            <div className="slider sli-partner">
+              <img src={one} alt="" />
+              <img src={two} alt="" />
+              <img src={three} alt="" />
+              <img src={four} alt="" />
+              <img src={five} alt="" />
+              <img src={six} alt="" />
+              <img src={seven} alt="" />
+              <img src={eight} alt="" />
+            </div>
+            <div className="slider sli-partner">
+              <img src={one} alt="" />
+              <img src={two} alt="" />
+              <img src={three} alt="" />
+              <img src={four} alt="" />
+              <img src={five} alt="" />
+              <img src={six} alt="" />
+              <img src={seven} alt="" />
+              <img src={eight} alt="" />
+            </div>
           </div>
-          <div className="slider sli-partner">
-          <img src={one} alt="" />
-            <img src={two} alt="" />
-            <img src={three} alt="" />
-            <img src={four} alt="" />
-            <img src={five} alt="" />
-            <img src={six} alt="" />
-            <img src={seven} alt="" />
-            <img src={eight} alt="" />
-          </div>
+
         </div>
-      </div>
       </div>
     </div>
   );

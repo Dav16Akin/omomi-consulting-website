@@ -17,16 +17,13 @@ const Footer = () => {
             <h4>company</h4>
             <ul>
               <li>
-                <a href="*">about us</a>
+                <a href="/about">about us</a>
               </li>
               <li>
-                <a href="*">our services</a>
+                <a href="/impact">our Impact</a>
               </li>
               <li>
-                <a href="*">privacy policy</a>
-              </li>
-              <li>
-                <a href="*">affiliate program</a>
+                <a href="/contact">Contact us</a>
               </li>
             </ul>
           </div>

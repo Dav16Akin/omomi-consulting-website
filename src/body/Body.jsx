@@ -55,7 +55,7 @@ const Body = () => {
                   growth.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="*">
+                  <a className="btn btn-lg btn-primary" href="/contact">
                     Learn More
                   </a>
                 </p>
@@ -80,7 +80,7 @@ const Body = () => {
                   sustainability
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="*">
+                  <a className="btn btn-lg btn-primary" href="/contact">
                     Learn more
                   </a>
                 </p>
@@ -102,7 +102,7 @@ const Body = () => {
                 <h1>Reach the Crescendo of Growth and Success.</h1>
                 <p>We Pull the Strings of Strategy and Finance</p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="*">
+                  <a className="btn btn-lg btn-primary" href="/contact">
                     Learn more
                   </a>
                 </p>
@@ -157,9 +157,9 @@ const Body = () => {
               <li>Sustainability</li>
               <li>Transformation</li>
             </ul>
-            <a className="btn btn-lg btn-primary" href="*">
+            <button className="btn btn-lg btn-primary" href="/contact">
               Learn More
-            </a>
+            </button>
           </div>
           <div className="operations-pic"></div>
         </div>
@@ -222,49 +222,21 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="fixed-background"></div>
-
-      <div className="team-container">
-        <div className="teams">
-          <div className="team-media-scroller">
-            <div className="team">
-              <div className="team-pic team-1"></div>
-              <div className="team-text">
-                <h5> Akinwale Oluwaleye </h5>
-                <p>Managing Partner/ CEO</p>
-              </div>
-            </div>
-            <div className="team">
-              <div className="team-pic team-2"></div>
-              <div className="team-text">
-                <h5> Lanre Adediran</h5>
-                <p>Partner, Taxation, Finance & Accounting Management</p>
-              </div>
-            </div>
-            <div className="team">
-              <div className="team-pic team-4"></div>
-              <div className="team-text">
-                <h5>Tunde Ayeni</h5>
-                <p>Partner, Operations & Turnaround Management</p>
-              </div>
-            </div>
-            <div className="team">
-              <div className="team-pic team-3 "></div>
-              <div className="team-text">
-                <h5>Femi Niyi </h5>
-                <p>
-                  {" "}
-                  Partner, Technology Innovation, Banking & Risk Management
-                </p>
-              </div>
-            </div>
+      <div className="operations-container">
+        <div className="operations">
+          <div className="operations-pic under"></div>
+          <div className="operations-text">
+            <h1 className="operations-h1">Championing Inclusive Growth</h1>
+            <p>
+              We’ve always been big champions of the growth potential of our
+              clients. Today, we’re privileged to work with companies and
+              institutions that are on a new growth journey, one that pursues
+              sustainable inclusion, and economic growth, all at the same time.
+            </p>
+            <button className="btn btn-lg btn-primary" href="/contact">
+              Learn More
+            </button>
           </div>
-        </div>
-        <div className="team-header-container">
-          <h1>Meet Our Team</h1>
-          <a className="btn btn-lg btn-primary" href="*">
-            learn more
-          </a>
         </div>
       </div>
     </div>

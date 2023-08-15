@@ -99,6 +99,10 @@ h3 {
     max-height: 85vh;
 }
 
+.operations-container button {
+    font-family: 'Nunito', sans-serif;
+}
+
 .operations-pic {
     background-image: url("./../images/lukasz-rawa-lUSYREUSXBg-unsplash.jpg");
     background-size: cover;
@@ -107,7 +111,12 @@ h3 {
     bottom: 8rem;
     width: 45%;
     height: 115svh;
+}
 
+.operations-pic.under {
+    background-image: url("./../images/under.png");
+    height: 90svh;
+    bottom: 50px;
 }
 
 .operations-text {
@@ -221,90 +230,6 @@ h3 {
     background-color: rgb(163, 20, 20);
     border: none;
 }
-
-
-
-
-.team-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 49px;
-    margin-top: 50px;
-}
-
-.teams {
-    margin: 20px;
-    width: 60%;
-    height: 350px;
-}
-
-.team {
-    height: 420px;
-}
-
-.team-pic {
-    width: 200px;
-    background-color: #2b2d42;
-    height: 200px;
-}
-
-.team-1 {
-    background-image: url("./../images/IMG-20230810-WA0004.jpg");
-    background-size: cover;
-    background-position: top;
-}
-
-.team-2 {
-    background-image: url("./../images/IMG-20230810-WA0005.jpg");
-    background-size: cover;
-}
-
-.team-3 {
-    background-image: url("./../images/image.png");
-    background-size: cover;
-}
-
-.team-4 {
-    background-image: url("./../images/IMG-20230811-WA0010.jpg");
-    background-size: cover;
-}
-
-.team-media-scroller {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 26%;
-    gap: 2rem;
-
-
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-}
-
-
-.team-header-container {
-    padding: 0 50px;
-    width: 50%;
-    height: 480px;
-    background-color: white;
-}
-
-.team-text h5 {
-    margin-top: 10px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-}
-
-.team-text p {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-}
-
-.team-header-container h1 {
-    font-family: 'Nunito', sans-serif;
-}
-
 
 
 .fixed-background {

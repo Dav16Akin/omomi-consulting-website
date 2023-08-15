@@ -37,7 +37,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.product-container p, .case-container p {
+.product-container p, .case-container p , .partner-container p{
     font-size: 1.4rem;
     font-weight: 400;
 }

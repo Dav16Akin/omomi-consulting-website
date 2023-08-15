@@ -17,7 +17,7 @@ const contactPage = () => {
       <div className="contact-form">
         <div className="contact-form-text">
           <h1>Get in Touch</h1>
-          <p>Thank you for your intrest. Please fill out the form below</p>
+          <p>Thank you for your intrest. Please fill out the form</p>
           <div className="social-links">
             <a href="*">
               <FontAwesomeIcon size={"1.5x"} icon={faFacebookF} />
@@ -53,9 +53,9 @@ const contactPage = () => {
               <div className="form-text">Message</div>
               <input type="text" />
             </div>
-            <a type="submit" className="btn btn-lg btn-primary" href="*">
+            <button type="submit" className="btn btn-lg btn-primary" href="*">
               submit
-            </a>
+            </button>
           </form>
         </div>
       </div>

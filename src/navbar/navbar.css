@@ -22,13 +22,6 @@
     border-radius: 3px;
 }
 
-.nav-link.activ {
-    color: white;
-}
-
-.nav-item.active {
-    background-color: #d90429;
-}
 
 .top-nav {
     background-color: white;
@@ -41,6 +34,9 @@
     padding: 40px;
 }
 
+.second-nav {
+    height: 60px;
+}
 
 @media screen and (max-width: 767px) {
     .main-nav {
