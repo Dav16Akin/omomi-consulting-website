@@ -36,7 +36,7 @@ const aboutPage = () => {
             <div className="industry">
               Technology, Media & Telecommunications
             </div>
-            <div className="industry">Eduction</div>
+            <div className="industry">Education</div>
             <div className="industry">Healthcare</div>
             <div className="industry">Automotive & Assembly</div>
             <div className="industry">Industrials & Electronics</div>

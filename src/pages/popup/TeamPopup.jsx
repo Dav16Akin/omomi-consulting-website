@@ -44,11 +44,11 @@ export const TeamPopup = () => {
                     </button>
                     <h1>Akinwale Oluwaleye</h1>
                     <p>
-                      Akinwale Oluwaleye attended Christs School Ado
-                      Ekiti -1977-1883 (WASC) Oshogbo Grammar School- 1983-1985
-                      (HSC) and graduated from the University of Ibadan in 1988
-                      with a B.Sc Hons Degree in Geography. In 1991 he started
-                      his working career at a frontline Nigerian Ad Agency- Pal
+                      Akinwale Oluwaleye attended Christs School Ado Ekiti
+                      -1977-1883 (WASC) Oshogbo Grammar School- 1983-1985 (HSC)
+                      and graduated from the University of Ibadan in 1988 with a
+                      B.Sc Hons Degree in Geography. In 1991 he started his
+                      working career at a frontline Nigerian Ad Agency- Pal
                       Advertising as a Copy Writer from where he joined SAAL
                       Advertising In 1992 as a Senior Copywriter and was
                       promoted to a Group Head of the Creative Department in
@@ -209,7 +209,75 @@ export const TeamPopup = () => {
                 <p>Partner, Operations & Turnaround Management</p>
               </div>
             </div>
-            <div className="team">
+            <div
+              className="team"
+              onClick={() =>
+                openPopup(
+                  <div className="modal-content">
+                    <button className="close-button" onClick={closePopup}>
+                      close
+                    </button>
+                    <h1>Femi Niyi</h1>
+                    <p>
+                      Femi is a business strategist and thought leader with a
+                      unique blend of investment banking, business management,
+                      and technology experience garnered from his broad-based
+                      work experience and extensive academic training. Femi’s 18
+                      years of banking career saw him principally involved in
+                      structured financing and the development of asset
+                      portfolios in the Telecoms, Oil & Gas and Power sectors.
+                      He had stints with Union Bank, Equity Bank and
+                      Intercontinental Bank Plc and was later appointed MD
+                      Intercontinental Bank, Sierra Leone, a role from which he
+                      resigned in January 2009 to join Courteville Business
+                      Solutions Plc. At Courteville, Femi served as the
+                      executive director for projects, strategy and research and
+                      led development teams for the design, implementation and
+                      maintenance of the AutoReg e-government information
+                      systems that managed motor vehicle administration
+                      documentation, the NAFDAC e-Registration platform for drug
+                      regulation control and administration as well as NIA-NIID
+                      insurance policy repository and verification hub, among
+                      many other e-solutions, which have all been described as
+                      first of their kinds in Africa. Now a business strategy
+                      consultant, Femi has led and continues to lead a cocktail
+                      of client engagements that span business and technology
+                      strategy, business process analysis, change management,
+                      technology selection, enterprise technology
+                      implementation, and various business and technology
+                      transformation concepts. He is currently involved with
+                      Nucleus Africa, a Health-Tech start-up that developed the
+                      NucleusTM health management hub an Infotech ecosystem for
+                      the health sector as well as doubling as the managing
+                      partner of Bro. George Honey® a bee farming and processing
+                      company. As part of his humanitarian and social
+                      intervention interests, Femi currently Chairs the board of
+                      trustees of Coderina Education & Technology Foundation, an
+                      independent, not-for-profit organization that is focused
+                      on promoting 21st century digital literacy amongst young
+                      learners, with a bias for teaching students coding and
+                      robotics, Artificial Intelligence and Machine Learning as
+                      well as promoting innovation and entrepreneurship in
+                      Africa. Femi Niyi holds a Bachelor of Technology degree in
+                      Agriculture Technology from the Federal University of
+                      Technology, Akure and an MBA in Marketing from the same
+                      University. He also has a Senior Executive Masters Program
+                      certification in Information Systems from the Metropolitan
+                      School of Business & Management, UK. He has attended
+                      numerous courses in India and Europe and is an Alumnus of
+                      the London Business School from which he received senior
+                      executive leadership training. Essentially Femi is a
+                      business strategist, solution provider, and serial
+                      entrepreneur with a bias for IT-focused solutions
+                      development and strategic market entry analysis. Femi is
+                      an avid sportsman and fitness aficionado. He loves reading
+                      with a bias for history and enjoys traveling. He is
+                      married with a son.
+                    </p>
+                  </div>
+                )
+              }
+            >
               <div className="team-pic team-3 "></div>
               <div className="team-text">
                 <h5>Femi Niyi </h5>

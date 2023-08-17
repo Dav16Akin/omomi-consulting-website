@@ -34,9 +34,9 @@
     padding: 40px;
 }
 
-.second-nav {
+/* .second-nav {
     height: 60px;
-}
+} */
 
 @media screen and (max-width: 767px) {
     .main-nav {

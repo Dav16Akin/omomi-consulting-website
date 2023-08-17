@@ -7,6 +7,8 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { ContactForm } from "../shared/ContactForm";
+
 
 const contactPage = () => {
   return (
@@ -34,29 +36,7 @@ const contactPage = () => {
           </div>
         </div>
         <div>
-          <form className="form">
-            <div className="form-name">
-              <div className="nameBox">
-                <div className="form-text">First Name</div>
-                <input type="text" />
-              </div>
-              <div className="nameBox">
-                <div className="form-text">Last Name</div>
-                <input type="text" />
-              </div>
-            </div>
-            <div className="emailBox">
-              <div className="form-text">Email</div>
-              <input type="email" />
-            </div>
-            <div className="msgBox"> 
-              <div className="form-text">Message</div>
-              <input type="text" />
-            </div>
-            <button type="submit" className="btn btn-lg btn-primary" href="*">
-              submit
-            </button>
-          </form>
+          <ContactForm/>
         </div>
       </div>
     </div>

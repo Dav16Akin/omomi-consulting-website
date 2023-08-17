@@ -49,7 +49,12 @@
     height: 60px;
 }
 
-.msgBox input {
+.nameBox span, .emailBox span, .msgBox span {
+    color: #d90429;
+    display: block;
+}
+
+.msgBox textarea {
     background-color: #edf2f4;
     border: 0.5px solid #d1e8f1;
     border-radius: 5px;
