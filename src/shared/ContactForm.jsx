@@ -21,6 +21,8 @@ export const ContactForm = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  // const form = useRef();
+
  
 
   const handleSubmit = (e) => {
