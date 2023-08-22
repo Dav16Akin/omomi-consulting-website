@@ -25,10 +25,10 @@ export const TeamPopup = () => {
   return (
     <>
       <div className="team-container">
-        <h1>Our Team</h1>
+        <h1>Our team</h1>
         <p className="p">
-          Our Team is a leadership body with over 100 years combined experience
-          that is geared to accelerates the delivery of our client service and
+          Our team is a leadership body with over 100 years combined experience
+          that is geared to accelerate the delivery of our client service and
           people mission. The team connects leaders and key capabilities, such
           as Finance, Risk & Resilience, Turn Around Management, Technology
           Innovation and Banking to support our firm’s performance and health.

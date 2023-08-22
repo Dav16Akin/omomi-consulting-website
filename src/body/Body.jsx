@@ -157,9 +157,9 @@ const Body = () => {
               <li>Sustainability</li>
               <li>Transformation</li>
             </ul>
-            <button className="btn btn-lg btn-primary" href="/contact">
+            <a className="btn btn-lg btn-primary" href="/contact">
               Learn More
-            </button>
+            </a>
           </div>
           <div className="operations-pic"></div>
         </div>
@@ -233,9 +233,9 @@ const Body = () => {
               institutions that are on a new growth journey, one that pursues
               sustainable inclusion, and economic growth, all at the same time.
             </p>
-            <button className="btn btn-lg btn-primary" href="/contact">
+            <a className="btn btn-lg btn-primary" href="/contact">
               Learn More
-            </button>
+            </a>
           </div>
         </div>
       </div>

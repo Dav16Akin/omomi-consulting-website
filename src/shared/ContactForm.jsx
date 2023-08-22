@@ -31,7 +31,7 @@ export const ContactForm = () => {
     if (validateForm()) {
       emailjs
         .sendForm(
-          "contact_service",
+          "omomi_webcontact1",
           "contact_form",
           e.target,
           "WQmwcwTf9Pu9w3DaT"

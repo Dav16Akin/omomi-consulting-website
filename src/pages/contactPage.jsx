@@ -19,19 +19,19 @@ const contactPage = () => {
       <div className="contact-form">
         <div className="contact-form-text">
           <h1>Get in Touch</h1>
-          <p>Thank you for your intrest. Please fill out the form</p>
+          <p>Thank you for your interest. Please fill out the form</p>
           <div className="social-links">
             <a href="*">
-              <FontAwesomeIcon size={"1.5x"} icon={faFacebookF} />
+              <FontAwesomeIcon size={"1x"} icon={faFacebookF} />
             </a>
             <a href="*">
-              <FontAwesomeIcon size={"1.5x"} icon={faTwitter} />
+              <FontAwesomeIcon size={"1x"} icon={faTwitter} />
             </a>
             <a href="*">
-              <FontAwesomeIcon size={"1.5x"} icon={faInstagram} />
+              <FontAwesomeIcon size={"1x"} icon={faInstagram} />
             </a>
             <a href="*">
-              <FontAwesomeIcon size={"1.5x"} icon={faLinkedin} />
+              <FontAwesomeIcon size={"1x"} icon={faLinkedin} />
             </a>
           </div>
         </div>

@@ -55,16 +55,16 @@ const Footer = () => {
             <h4>follow us</h4>
             <div className="social-links">
               <a href="*">
-                <FontAwesomeIcon size={"1.5x"} icon={faFacebookF} />
+                <FontAwesomeIcon size={"1x"} icon={faFacebookF} />
               </a>
               <a href="*">
-                <FontAwesomeIcon size={"1.5x"} icon={faTwitter} />
+                <FontAwesomeIcon size={"1x"} icon={faTwitter} />
               </a>
               <a href="*">
-                <FontAwesomeIcon size={"1.5x"} icon={faInstagram} />
+                <FontAwesomeIcon size={"1x"} icon={faInstagram} />
               </a>
               <a href="*">
-                <FontAwesomeIcon size={"1.5x"} icon={faLinkedin} />
+                <FontAwesomeIcon size={"1x"} icon={faLinkedin} />
               </a>
             </div>
           </div>
