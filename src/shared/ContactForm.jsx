@@ -63,22 +63,22 @@ export const ContactForm = () => {
       <div className="form-name">
         <div className="nameBox">
           <div className="form-text">First Name</div>
-          <input name="user_name" value={name} type="text" onChange={(e) => setName(e.target.value)} />
+          <input name="user_name" value={name} type="text" placeholder="First Name" onChange={(e) => setName(e.target.value)} />
           {errors.name && <span className="error">{errors.name}</span>}
         </div>
         <div className="nameBox">
           <div className="form-text">Last Name</div>
-          <input type="text" />
+          <input type="text" placeholder="Last Name" />
         </div>
       </div>
       <div className="emailBox">
         <div className="form-text">Email</div>
-        <input name="user_email" value={email} type="email" onChange={(e) => setEmail(e.target.value)} />
+        <input name="user_email" value={email} type="email" placeholder="you@gmail.com" onChange={(e) => setEmail(e.target.value)} />
         {errors.email && <span className="error">{errors.email}</span>}
       </div>
       <div className="msgBox">
         <div className="form-text">Message</div>
-        <textarea name="message" value={message} type="text" onChange={(e) => setMessage(e.target.value)} />
+        <textarea name="message" value={message} placeholder="Leave us a message" type="text" onChange={(e) => setMessage(e.target.value)} />
         {errors.message && <span className="error">{errors.message}</span>}
       </div>
       {/* <ReCAPTCHA

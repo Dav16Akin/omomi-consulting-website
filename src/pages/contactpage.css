@@ -43,13 +43,17 @@
 .nameBox input,
 .emailBox input {
     background-color: #edf2f4;
-    border: 0.5px solid #d1e8f1;
+    border: 0.5px solid #ccc;
     border-radius: 5px;
     width: 300px;
     height: 60px;
+    padding: 16px;
+    font-family: 'Nunito', sans-serif;
 }
 
-.nameBox span, .emailBox span, .msgBox span {
+.nameBox span,
+.emailBox span,
+.msgBox span {
     color: #d90429;
     display: block;
 }
@@ -60,7 +64,17 @@
     border-radius: 5px;
     width: 100%;
     height: 100px;
+    padding: 16px;
+    font-family: 'Nunito', sans-serif;
 }
+
+.nameBox input:focus, .emailBox input:focus, .msgBox textarea:focus {
+    outline-color: #9cc9da;
+    /* Change to the desired outline color */
+    border-color: #9cc9da;
+    /* Change to match outline color if desired */
+}
+
 
 .form button {
     font-family: 'Nunito', sans-serif;
@@ -70,7 +84,8 @@
 .form-text {
     color: black;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 20px 0;
 }
 
 
